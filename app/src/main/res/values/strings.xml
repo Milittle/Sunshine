@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Sunshine</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">hello world!</string>
+
+    <!--Menu label to fetch update weather info from the server-->
+    <string name="refresh">Refresh</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--Label for the location preference {CHAR LIMIT=30}-->
+    <string name="pref_location_label">Location</string>
+
+    <!--Key name for storing location in SharedPreference{CHAR LIMIT=NONE}-->
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <!--Default postal code for location preference {CHAR LIMIT=NONE}-->
+    <string name="pref_location_default" translatable="false">010000</string>
+
+    <!-- Label for the temperature units preference [CHAR LIMIT=30] -->
+    <string name="pref_units_label">Temperature Units</string>
+
+    <!-- Label for metric option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_units_label_metric">Metric</string>
+
+    <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_units_label_imperial">Imperial</string>
+
+    <!-- Key name for temperature unit preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_units_key" translatable="false">units</string>
+
+    <!-- Value in SharedPreferences for metric temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_units_metric" translatable="false">metric</string>
+
+    <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_units_imperial" translatable="false">imperial</string>
+
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
+</resources>
